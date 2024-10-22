@@ -19,5 +19,5 @@ type Options struct {
 }
 
 func (opt *Options) hasHeaders() bool {
-	return opt.Headers != nil && len(opt.Headers) > 0
+	return len(opt.Headers) > 0
 }

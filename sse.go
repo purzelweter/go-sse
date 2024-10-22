@@ -1,7 +1,7 @@
 package sse
 
 import (
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"os"
@@ -28,7 +28,7 @@ func NewServer(options *Options) *Server {
 	}
 
 	if options.Logger == nil {
-		options.Logger = log.New(ioutil.Discard, "", log.LstdFlags)
+		options.Logger = log.New(io.Discard, "", log.LstdFlags)
 	}
 
 	s := &Server{

@@ -1,12 +1,13 @@
 # go-sse
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/alexandrevicenzi/go-sse)](https://goreportcard.com/report/github.com/alexandrevicenzi/go-sse)
-[![Build Status](https://travis-ci.org/alexandrevicenzi/go-sse.svg?branch=master)](https://travis-ci.org/alexandrevicenzi/go-sse)
-[![GoDoc](https://godoc.org/github.com/alexandrevicenzi/go-sse?status.svg)](http://godoc.org/github.com/alexandrevicenzi/go-sse)
+[![GoDoc](https://godoc.org/github.com/purzelweter/go-sse?status.svg)](http://godoc.org/github.com/purzelweter/go-sse)
 
 Server-Sent Events for Go
 
 ## About
+
+> [!NOTE]
+> This repo was forked from github.com/alexandrevicenzi/go-sse.
 
 [Server-sent events](http://www.html5rocks.com/en/tutorials/eventsource/basics/) is a method of continuously sending data from a server to the browser, rather than repeatedly requesting it, replacing the "long polling way".
 
@@ -25,7 +26,7 @@ It's [supported](http://caniuse.com/#feat=eventsource) by all major browsers and
 
 ## Instalation
 
-`go get github.com/alexandrevicenzi/go-sse`
+`go get github.com/purzelweter/go-sse`
 
 ## Example
 
@@ -73,7 +74,7 @@ e.onmessage = function(event) {
 };
 ```
 
-More examples available [here](https://github.com/alexandrevicenzi/go-sse/tree/master/_examples).
+More examples available [here](https://github.com/purzelweter/go-sse/tree/master/_examples).
 
 ## License
 
